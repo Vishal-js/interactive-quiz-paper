@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/forget.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="otpbox hide">
+        <p class="otptext"></p>
+    </div>
+    
+    <div class="forget"> 
+        <div class="title">
+            <p>Forget Password</p>
+        </div>
+    
+        <form action="submit">
+            <div id="input-name" class="input-div">
+                <p class="input-title">Username</p>
+                <input type="text" name="" id="usermatchid" placeholder="Email or Phone" required>
+            </div>
+    
+            <div id="input-password" class="input-div">
+                <p class="input-title">OTP</p>
+                <input type="password" name="" id="otparea" placeholder="Enter OTP">
+            </div>
+    
+            <div class="btn-div">
+                <button id="btnotp" type="button">Get OTP</button>
+                <button id="btnforget" type="button" class="hide">Login</button>
+            </div>
+        </form>
+    
+        <p class="backto">
+            <a href="./register.html">Register</a>
+        </p>
+    </div>
+       
+   <script src="./JS/forget.js"></script>    
+
+</body>
+</html>

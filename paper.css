@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/imgs/Untitled\ design.png);
+    background-size: cover;
+    background-position: center;
+    font-family: "Mukta Malar", serif!important;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.first {
+     width: 98%;
+     margin: auto;
+}
+
+.color {
+    background-color: #28272f9d;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 50vh;
+    border: 5px;
+    margin: 2vh 0px;
+    border-radius: 5px;
+    padding: 2vh 2vh;
+}
+
+#panel {
+    background-color: #28272f9d;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 5px;
+    margin: 2vh 0px;
+    border-radius: 5px;
+    padding: 2vh 2vh;
+    color: black;
+}
+
+
+.user {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.user img {
+    width : 8%;
+}
+
+.user p {
+    margin: 0%;
+    color: white;
+    margin: 0px 1vh;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.dash {
+    display: flex;
+    width: 90%;
+    color: white;
+    margin: 15px 40px;
+
+}
+
+.dash img {
+    width: 7%;
+    height: 100%;
+    margin-right: 1vh;
+}
+
+.dash p {
+    margin: 0%;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+
+.paper-list {
+    width: 100%; 
+    display: flex;
+    margin: 15px 40px;
+}
+
+.paper-list img {
+    width: 100%;
+}
+
+
+.paper-list span {
+    width: 7%;
+    margin-right: 1vh;
+}
+
+#testlist {
+    background-color: transparent;
+    border: none;
+    padding: 0%;
+}
+
+.paper-list ul {
+    background-color: black;
+}
+
+.paper-list ul li a {
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+.paper-list ul li a:hover {
+    background-color: #4B5BE6;
+    color: white;
+}
+
+.question-set1 {
+    width: 50%;
+    margin: auto;
+    background-color: transparent;
+    padding: 2vh 2vh;
+    border-radius: 5px;
+}
+
+.question-set2{
+    width: 50%;
+    margin: auto;
+    background-color: transparent;
+    padding: 2vh 2vh;
+    border-radius: 5px;
+} 
+
+.question-set1 p  {
+    margin: 0%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.question-set2 p {
+    margin: 0%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.questions {
+    margin-bottom: 2vh ;
+    background-color: white;
+    padding: 2vh 2vh;
+    border-radius: 5px
+}
+
+.questions label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+#btna {
+    border: none;
+    padding: 1vh 2vh;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.usernamefeild {
+    color: white;
+    font-size: 18px;
+    margin: 3vh 0px;
+}
+
+.just {
+    margin: 5px 5px 5px 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.just1 {
+    margin-top: 0px!important;
+}
+
+.info-box {
+    padding: 1vh 2vh;
+    background-color: #28272f9d;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 17px;
+    margin: 0%;
+}

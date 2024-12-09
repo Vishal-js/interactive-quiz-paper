@@ -1,0 +1,109 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-image: url(/imgs/Untitled\ design.png);
+    background-size: cover;
+    background-position: center;
+    font-family: "Mukta Malar", serif;
+    color: white;
+}
+
+
+
+.register {
+    background-color: #28272f9d;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1% 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.extra {
+    background-color: #28272fb8;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1vh;
+    border-radius: 10px;
+}
+
+
+.extratext {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+
+
+.res-title p {
+    font-size: 38px;
+    text-align: center;
+    margin: 0%;
+    margin: 2vh auto;
+    font-weight: bold;
+}
+
+form {
+    width: 100%;
+}
+
+form input {
+    width: 95%;
+    height: 4vh;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.119);
+    color: white;
+}
+
+input::placeholder {
+    color: rgb(228, 228, 228);
+}
+
+.input-div {
+    margin: 4vh 0px;
+}
+
+.p {
+    margin: 0%;
+}
+
+button {
+    width: 80%;
+    padding: 15px;
+    margin: 2vh auto;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.backto {
+    text-align: center;
+}
+
+
+.backto a{
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
